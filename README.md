@@ -1,4 +1,4 @@
-# Автоматическое сканирование Docker-образа при загрузке
+# Автоматическое сканирование Docker-образа при загрузке в реестр Yandex Container Registry с помощью функции Yandex Cloud Functions
 
 В этом руководстве вы создадите [реестр](https://yandex.cloud/ru/docs/container-registry/concepts/registry) [Container Registry](https://yandex.cloud/ru/docs/container-registry/) для хранения Docker-образа и настроите автоматическое сканирование на уязвимости, при загрузке образа в реестр. С помощью триггера [Cloud Functions](https://yandex.cloud/ru/docs/functions/) будут отслеживаться изменения в реестре и при загрузке Docker-образа в реестр, будет вызываться функция для запуска сканирования.
 
